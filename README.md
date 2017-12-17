@@ -22,10 +22,6 @@ As stated before this is just a school project. There are various issues that ar
 
 You can contribute if you want, the project was just for school. I don't plan on working any further on the project. I got the A and that's all that matters right?
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
 ## Authors
 
 * **Cristian Reyes** - *Front Page* - [Website](https://www.tesseract.site44.com) // It's a work in progress
