@@ -1,0 +1,404 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hawai'i Volcanoes</title>
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>
+<style>
+
+body{
+	margin:0 auto;
+}
+a{
+	text-decoration:none;
+}
+center, a:link{
+	color:#D48513;
+}
+center, a:visited{
+	background-color:#B94C59;
+}
+
+center, a:hover{
+	color:#FBD08A;
+}
+.mainHeader{
+	width:100%;
+	height:600px;
+	background-color:black;
+	border-bottom-color:#F31215;
+}
+.mainImage{
+z-index:0;
+background-image:url(Images/giphy.gif);
+background-size:100% 600px;
+opacity: 0.65;
+width:100%;
+height:600px;/**Needs to be the same height as mainHeader*/
+background-repeat:no-repeat;
+}
+.textHead{
+	z-index:1;
+	position:absolute;
+	margin-top:250px;
+	margin-left:35%;
+	color:white;
+}
+.title{
+	font-family:'Raleway', helvetica;
+	font-size:80px;
+	font-weight:100;
+	
+	
+}
+.subTitle{
+	font-family:"Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:20px;
+	font-weight:100;
+	margin-top:-90px;
+	margin-left:150px;
+}
+.blockContent{/*Reviews*/
+	display:block;
+	width:100%;
+	height:400px;
+	background-color:#1B3C5B;
+	color:white;
+}
+
+.center{/*This is for the links*/
+  margin-top:80px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;	
+  text-align:center;
+}
+.centerReviews{/*This is for the reviews*/
+  height:200px;
+  width: 800px;
+  padding-top:;
+  margin-left: auto;
+  margin-right:auto;
+  
+}
+.reviews{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:30px;
+	
+}
+.threeBoxes{/*Color of Icons is #BFBEBC*/
+	display:inline-block;
+	float:left;
+	width:30%;
+	height:400px; /*Needs to be same size as blockContent height*/
+	background-color:white;
+	color:black;
+}
+.thirdBox{
+	float:left;
+	width:40%;
+	display:inline-block;
+	height:400px; /*Needs to be same size as blockContent height*/
+	background-color:white;
+	color:black;
+}
+.locationBox{/*Color of Icons is #BFBEBC*/
+	display:inline-block;
+	float:left;
+	width:30%;
+	height:400px; /*Needs to be same size as blockContent height*/
+	color:#FFFFFF;
+}
+.titleSection{
+	position:absolute;
+	font-family:'Raleway',"Segoe UI",helvetica;
+	font-size:36px;
+	font-weight:100;
+}
+.tripPlansDesign{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color:#3C5063;
+	
+	
+	
+}
+.tripPlansDesign2{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color:#3C5063;
+	border-right:thin;
+	border-right-style:dashed;
+	border-right-color:#AAAAAA;
+	border-left:thin;
+	border-left-style:dashed;
+	border-left-color:#AAAAAA;
+	height:250px;
+}
+.overFlow{
+	overflow:visible;
+    overflow: auto;
+	height:250px;
+	
+	
+}
+.blockContent .reviews .overFlow p{
+	border-bottom:thin;
+	border-bottom-color:#D48513;
+}
+footer{
+	width:100%;
+	height:150px;
+}
+.clearing{
+	clear:both;
+}
+.locationDesign{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color:#FFFFFF;
+	
+}
+.wideBox{/*This is for the text on Location*/
+	float:left;
+	width:70%;
+	display:inline-block;
+	height:400px; /*Needs to be same size as blockContent height*/
+	
+	color:#FCFCFC;
+}
+.videoSection{/*video section*/
+	display:block;
+	width:100%;
+	height:600px;
+	background-color:#FFFFFF;
+	color:#000000;
+}
+
+.mainVideo{
+z-index:0;
+float:left;
+width:40%;
+height:350px;
+border-style:double;
+border-color:#FFFFFF;
+border-width:40px;
+margin-top:60px;
+margin-left:15%;
+background-color:#3C5063;
+text-align:center;/*important to center child divs*/
+}
+.centerVideo{
+  margin: 0px auto;
+  
+}
+.mainVideoText{
+	display:inline-block;
+	float:left;
+	width:30%;
+	height:400px; /*Needs to be same size as blockContent height*/
+	background-color:white;
+	color:black;
+}
+.videoTextStyle{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:86px;
+	margin-top:-30px;
+}
+.imageTourText{
+	display:inline-block;
+	float:left;
+	width:70%;
+	height:200px; /*Needs to be same size as blockContent height*/
+	color:white;
+	font-size:52px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	margin: 0px auto;
+}
+.navigator{
+	border-left:thin;
+	border-color:black;
+	
+}
+ul{
+	list-style-type:none;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:24px;
+}
+</style>
+</head>
+
+<body>
+	<div class="mainHeader">
+            <div class=textHead>
+            	<div class="title">
+            		<p>Hawi'i Volcanoes</p>
+              </div>
+              
+               <div class="subTitle">
+              		<p>Cultural Center of the Pacific </p>
+               </div>
+           </div> 
+          
+   		<div class="mainImage">
+       </div> 
+   </div>
+
+
+    <div class="blockContent">
+    
+   		<div class="threeBoxes">
+         <div class="titleSection">
+       					Sections
+       				</div>
+            	<div class="tripPlansDesign">
+               
+        
+                <div class="center">
+            		<h1><a href="history.html">History</a></h1>
+                  <img src="Icons/file-powerpoint.png"/>
+                  <p>
+                  	The geographic history of the volcanoes that formed the island
+                    	and the national park.
+                  </p>
+                  </div>
+              </div>
+       </div>
+       
+        <div class="thirdBox">
+            	<div class="tripPlansDesign2">
+                <div class="center">
+            		<h1>Sight Seeing</h1>
+                    <img src="Icons/bug.png"/>
+                    <p>
+                    		See all you can see with
+                         in the national park and be amazed at 
+                         the lucious scenery!
+                    </p>
+                 </div>
+              </div>
+       </div>
+       
+       <div class="threeBoxes">
+            	<div class="tripPlansDesign">
+                	<div class="center">
+            			<h1>Planning</h1>
+                      <img src="Icons/ticket.png"/>
+                      <p>
+                      	Plan your trip and see what you
+                        	will do at our tropical park.
+                      </p>
+                  </div>
+              </div>
+       </div>
+       
+   </div>
+   
+   <div class="clearing">
+   </div>
+   
+   
+   <div class="blockContent">
+   		
+        
+       <div class="reviews">
+       		<div class="titleSection">
+       			Reviews
+       		</div>
+            
+           <div class="centerReviews">
+           	<div class="overFlow">
+           	    <p>
+              		      As many reviews already well written, you have to witness yourself by being there, it is necessary in  lifetime adventure! 
+               	</p>
+             		<p>Lynda T.-<a href="http://www.yelp.com/biz/hawaii-volcanoes-national-park-hawaii-national-park?hrid=3dUal-c6cQcXarFyfteH4w">Yelp!</a></p>
+                    
+                    <p>
+                    		This place is constantly changing and a must see for all visitors to the Island.
+                    </p>
+                    <p>Jason H.-<a href="https://www.google.com/?gws_rd=ssl#q=hawaii+volcanoes&lrd=lrd">Google Reviews</a></p>
+                    
+                    <p>
+                    		Great scenery, some excellent hiking, and some knowledgeable staff. You can hike out to the cliffs over some lava flows, and it's a pretty desolate landscape. 
+                    </p>
+                    <p>Isaac V.-<a href="https://www.google.com/?gws_rd=ssl#q=hawaii+volcanoes&lrd=lrd">Google Reviews</a></p>
+               </div>
+           </div>
+       </div>
+          
+   </div>
+   
+   <div class="videoSection">
+   			<div class="titleSection" >
+       				Video
+       		</div>
+                        
+   		<div class="mainVideo">
+        	<div class="centerVideo">
+        		<iframe src="https://player.vimeo.com/video/67687294" width="520" height="340" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+                
+                <!--<video width="520" height="340" controls>
+  					<source src="Hawaii Volcanoes-HD.mp4" type="video/mp4">
+  					Your browser does not support the video tag.
+				</video> -->
+		 	</div>
+        </div>
+   		
+        <div class="mainVideoText">
+        	<div class="videoTextStyle">
+        	<p>The Hawaii Islands Time Lapse Video</p>
+           </div>
+        </div>
+
+            
+        
+   </div>
+   
+   <div class="blockContent">
+   		<div class="locationBox">
+        	<div class="titleSection">
+       				Location
+       		</div>
+            	<div class="locationDesign">
+     
+                	<div class="center">
+            			<h1>
+                        	<a href="https://www.google.com/maps/place/Hawai%CA%BBi+Volcanoes+National+Park/@19.4198789,-155.2889392,3a,75y,117.97h,86.64t/data=!3m4!1e1!3m2!1sixrbWCangf9TzqkIma_v_Q!2e0!4m2!3m1!1s0x0:0x3e5b7b263c84ae26!6m1!1e1">Photo Tour</a>
+                     </h1>
+    				
+                            
+                      
+                  	<img src="Icons/location.png"/>
+                  	<p>
+                  		Hawaiʻi Volcanoes National Park
+							<br />Hawaii Volcanoes National Park, HI 96718
+                  	</p>
+              		</div>
+             </div>
+   		</div>
+        
+        <div class="imageTourText">
+            	<div class="imageTourText">
+        			<p>Unique destination to spot live lava flows, lava tubes & glowing craters is popular with tourists. - <a href="https://www.google.com/search?client=safari&rls=en&q=hawaii+islands+review&ie=UTF-8&oe=UTF-8&gws_rd=ssl#rls=en&q=Hawai%CA%BBi+Volcanoes+National+Park+Hawaii+Volcanoes+National+Park%2C+HI&stick=H4sIAAAAAAAAAG2PL0tEURDF34qIyfI2vbQIYrDM3PlvMhuNtovvgouLiBtc0Oxn8NsIGqyC0bRNxOBHcIyCMBzODOf8YLrbt5ePrpscbG8NPXMQFWAxchUgQx96IXA0EwkKUpOCMUxRipm5R1ECQsdQyiuyE0BOQFExRYukCjKSuyp6khlZhz6JpOCR1bRFAyH7bAjhzuqpQhIZnaJKABJZqBc3U7aSAAhFoQhwMoNgsN3_HjjevKrXFyc75_Wmzuez-XJRL8flaf93n_2GniZ7sLIzq9h09LEhh8chrFr4WGqpozVu4rZ-f24Pn7HAu9f119Hjxn23__0DwTt53kgBAAA&tbs=lf:1,lf_msr:-1">Google</a></p>
+           	</div>
+            </div>
+        
+   </div>
+   <div class="clearing">
+   </div>
+   
+   <footer>
+   		<div class="navigator">
+        	<ul>
+            <li>
+            	<a href="index.html">Home</a>
+            </li>
+            <li>
+            	Sight Seeing
+            </li>
+            <li>
+            	<a href="history.html">History</a>
+            </li>
+            	Planning
+           </ul>
+        </div>
+   </footer>
+</body>
+</html>
