@@ -4,6 +4,8 @@ This was a web design project I did for school that challeneged students to crea
 revamped website for an existing national park. As the title suggests, I selected the
 Hawai'i Volcanoes National Park. 
 
+[Visit the Site Here](https://www.cs.ucr.edu/~creye025/hawaii/index.html)
+
 ## Getting Started
 
 The files are set up so that they index.html will work if you have all the files next to each other as they are above. Just download and put them in a folder anywhere and launch the index through any browser of your choosing.
