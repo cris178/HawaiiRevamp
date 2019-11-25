@@ -1,6 +1,6 @@
 # Hawai'i Volcanoes Revamp Mockup
 
-This was a web design project I did for school that challeneged students to create a 
+This was the first web design project I did for school. The project challeneged students to create a 
 revamped website for an existing national park. As the title suggests, I selected the
 Hawai'i Volcanoes National Park. 
 
